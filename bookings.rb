@@ -46,4 +46,23 @@ bookings = [{
     "id" => 9
   }]
   
+num_of_rooms = 3
+
+def assign_rooms(bookings, num_of_rooms)
+    # set up nested array with num of rooms
+    rooms = Array.new(num_of_rooms, Array.new())
+    print rooms
+    # find the earliest bookings and put into array
+    bookings.each do |x|
+    end
+
+    # for each booking in the array, find the next booking with the closest checkin date to the checkout date
+
+    # repeat until all bookings are done
+
+
+end
+
   puts Date.parse(bookings[0]["checkin"])
+
+  assign_rooms(bookings,num_of_rooms)
